@@ -6,3 +6,6 @@
 
 ## Build
 1. pdflatex resume.tex
+
+## Source
+- https://github.com/sb2nov/resume
