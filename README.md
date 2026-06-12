@@ -1,11 +1,17 @@
 # Ardi Nusawan Resume
 
 ## Preparation
-1. Install [plugin](https://github.com/lervag/vimtex?tab=readme-ov-file#vim-plug)
-1. Install MacTex `brew install mactex`
+1. Install LaTeX packages:
+   ```bash
+   sudo tlmgr update --self
+   sudo tlmgr install titlesec marvosym enumitem fancyhdr
+   ```
+   Note: The `fullpage` package is obsolete and has been removed from the template.
 
 ## Build
-1. pdflatex resume.tex
+```bash
+pdflatex resume.tex
+```
 
 ## Source
 - https://github.com/sb2nov/resume
